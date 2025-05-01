@@ -9,7 +9,9 @@ environment:
 
 dependencies:
   chess_shared:
-    path: ../chess_shared
+    git:
+      url: git@github.com:marioki/chess_shared.git
+      ref: main
   equatable: ^2.0.7
   flutter:
     sdk: flutter
